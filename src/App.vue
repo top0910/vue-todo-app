@@ -1,9 +1,15 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view />
+  <div id="app">
+    <router-view />
+    <div class="bottom_bar">
+      <div class="row expanded">
+        <div class="sm-4 columns text-center">
+          <router-link to="/">
+          </router-link>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <style>
