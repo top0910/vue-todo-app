@@ -1,5 +1,5 @@
 import { defineComponent } from "vue";
-import Task from "../../models/Tasks";
+import Task from "../../models/Task";
 
 export default defineComponent({
   name: "AddTask",
