@@ -11,7 +11,7 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: "/add_task",
     name: "AddTask",
-    component: AddTask
+    component: AddTask,
   },
 ];
 

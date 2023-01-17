@@ -2,6 +2,4 @@
 
 <script lang="ts" src="./AddTask.ts"></script>
 
-<style lang="scss" src="./AddTask.scss">
-
-</style>
+<style lang="scss" src="./AddTask.scss"></style>

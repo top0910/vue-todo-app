@@ -5,17 +5,17 @@ export default defineComponent({
   name: "AddTask",
   data() {
     return {
-      taskName: ""
+      taskName: "",
     };
   },
   methods: {
     addTask(): void {
-      if(this.taskName !== "") {
+      if (this.taskName !== "") {
         const newTask = new Task(this.taskName);
         this.$store.commit("setTask", newTask);
         this.taskName = "";
         this.$router.push("/");
       }
-    }
-  }
+    },
+  },
 });

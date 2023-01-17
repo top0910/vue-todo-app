@@ -5,7 +5,7 @@ export default defineComponent({
   name: "Home",
   data() {
     return {
-      tasks: [] as Task[]
+      tasks: [] as Task[],
     };
   },
   methods: {
@@ -14,9 +14,9 @@ export default defineComponent({
     },
     deleteTask(task: Task) {
       this.$store.commit("deleteTask", task);
-    }
+    },
   },
   mounted() {
     this.tasks = this.$store.state.tasks;
-  }
-})
+  },
+});
